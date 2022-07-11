@@ -1,0 +1,1210 @@
+CWE-ID,Description,Is_Category
+1004,Sensitive Cookie Without 'HttpOnly' Flag,False
+1007,Insufficient Visual Distinction of Homoglyphs Presented to User,False
+102,Struts: Duplicate Validation Forms,False
+1021,Improper Restriction of Rendered UI Layers or Frames,False
+1022,Use of Web Link to Untrusted Target with window.opener Access,False
+1023,Incomplete Comparison with Missing Factors,False
+1024,Comparison of Incompatible Types,False
+1025,Comparison Using Wrong Factors,False
+103,Struts: Incomplete validate() Method Definition,False
+1037,Processor Optimization Removal or Modification of Security-critical Code,False
+1038,Insecure Automated Optimizations,False
+1039,Automated Recognition Mechanism with Inadequate Detection or Handling of Adversarial Input Perturbations,False
+104,Struts: Form Bean Does Not Extend Validation Class,False
+1041,Use of Redundant Code,False
+1042,Static Member Data Element outside of a Singleton Class Element,False
+1043,Data Element Aggregating an Excessively Large Number of Non-Primitive Elements,False
+1044,Architecture with Number of Horizontal Layers Outside of Expected Range,False
+1045,Parent Class with a Virtual Destructor and a Child Class without a Virtual Destructor,False
+1046,Creation of Immutable Text Using String Concatenation,False
+1047,Modules with Circular Dependencies,False
+1048,Invokable Control Element with Large Number of Outward Calls,False
+1049,Excessive Data Query Operations in a Large Data Table,False
+105,Struts: Form Field Without Validator,False
+1050,Excessive Platform Resource Consumption within a Loop,False
+1051,Initialization with Hard-Coded Network Resource Configuration Data,False
+1052,Excessive Use of Hard-Coded Literals in Initialization,False
+1053,Missing Documentation for Design,False
+1054,Invocation of a Control Element at an Unnecessarily Deep Horizontal Layer,False
+1055,Multiple Inheritance from Concrete Classes,False
+1056,Invokable Control Element with Variadic Parameters,False
+1057,Data Access Operations Outside of Expected Data Manager Component,False
+1058,Invokable Control Element in Multi-Thread Context with non-Final Static Storable or Member Element,False
+1059,Incomplete Documentation,False
+106,Struts: Plug-in Framework not in Use,False
+1060,Excessive Number of Inefficient Server-Side Data Accesses,False
+1061,Insufficient Encapsulation,False
+1062,Parent Class with References to Child Class,False
+1063,Creation of Class Instance within a Static Code Block,False
+1064,Invokable Control Element with Signature Containing an Excessive Number of Parameters,False
+1065,Runtime Resource Management Control Element in a Component Built to Run on Application Servers,False
+1066,Missing Serialization Control Element,False
+1067,Excessive Execution of Sequential Searches of Data Resource,False
+1068,Inconsistency Between Implementation and Documented Design,False
+1069,Empty Exception Block,False
+107,Struts: Unused Validation Form,False
+1070,Serializable Data Element Containing non-Serializable Item Elements,False
+1071,Empty Code Block,False
+1072,Data Resource Access without Use of Connection Pooling,False
+1073,Non-SQL Invokable Control Element with Excessive Number of Data Resource Accesses,False
+1074,Class with Excessively Deep Inheritance,False
+1075,Unconditional Control Flow Transfer outside of Switch Block,False
+1076,Insufficient Adherence to Expected Conventions,False
+1077,Floating Point Comparison with Incorrect Operator,False
+1078,Inappropriate Source Code Style or Formatting,False
+1079,Parent Class without Virtual Destructor Method,False
+108,Struts: Unvalidated Action Form,False
+1080,Source Code File with Excessive Number of Lines of Code,False
+1082,Class Instance Self Destruction Control Element,False
+1083,Data Access from Outside Expected Data Manager Component,False
+1084,Invokable Control Element with Excessive File or Data Access Operations,False
+1085,Invokable Control Element with Excessive Volume of Commented-out Code,False
+1086,Class with Excessive Number of Child Classes,False
+1087,Class with Virtual Method without a Virtual Destructor,False
+1088,Synchronous Access of Remote Resource without Timeout,False
+1089,Large Data Table with Excessive Number of Indices,False
+109,Struts: Validator Turned Off,False
+1090,Method Containing Access of a Member Element from Another Class,False
+1091,Use of Object without Invoking Destructor Method,False
+1092,Use of Same Invokable Control Element in Multiple Architectural Layers,False
+1093,Excessively Complex Data Representation,False
+1094,Excessive Index Range Scan for a Data Resource,False
+1095,Loop Condition Value Update within the Loop,False
+1096,Singleton Class Instance Creation without Proper Locking or Synchronization,False
+1097,Persistent Storable Data Element without Associated Comparison Control Element,False
+1098,Data Element containing Pointer Item without Proper Copy Control Element,False
+1099,Inconsistent Naming Conventions for Identifiers,False
+11,ASP.NET Misconfiguration: Creating Debug Binary,False
+110,Struts: Validator Without Form Field,False
+1100,Insufficient Isolation of System-Dependent Functions,False
+1101,Reliance on Runtime Component in Generated Code,False
+1102,Reliance on Machine-Dependent Data Representation,False
+1103,Use of Platform-Dependent Third Party Components,False
+1104,Use of Unmaintained Third Party Components,False
+1105,Insufficient Encapsulation of Machine-Dependent Functionality,False
+1106,Insufficient Use of Symbolic Constants,False
+1107,Insufficient Isolation of Symbolic Constant Definitions,False
+1108,Excessive Reliance on Global Variables,False
+1109,Use of Same Variable for Multiple Purposes,False
+111,Direct Use of Unsafe JNI,False
+1110,Incomplete Design Documentation,False
+1111,Incomplete I/O Documentation,False
+1112,Incomplete Documentation of Program Execution,False
+1113,Inappropriate Comment Style,False
+1114,Inappropriate Whitespace Style,False
+1115,Source Code Element without Standard Prologue,False
+1116,Inaccurate Comments,False
+1117,Callable with Insufficient Behavioral Summary,False
+1118,Insufficient Documentation of Error Handling Techniques,False
+1119,Excessive Use of Unconditional Branching,False
+112,Missing XML Validation,False
+1120,Excessive Code Complexity,False
+1121,Excessive McCabe Cyclomatic Complexity,False
+1122,Excessive Halstead Complexity,False
+1123,Excessive Use of Self-Modifying Code,False
+1124,Excessively Deep Nesting,False
+1125,Excessive Attack Surface,False
+1126,Declaration of Variable with Unnecessarily Wide Scope,False
+1127,Compilation with Insufficient Warnings or Errors,False
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Response Splitting'),False
+114,Process Control,False
+115,Misinterpretation of Input,False
+116,Improper Encoding or Escaping of Output,False
+1164,Irrelevant Code,False
+117,Improper Output Neutralization for Logs,False
+1173,Improper Use of Validation Framework,False
+1174,ASP.NET Misconfiguration: Improper Model Validation,False
+1176,Inefficient CPU Computation,False
+1177,Use of Prohibited Code,False
+118,Incorrect Access of Indexable Resource ('Range Error'),False
+1187,DEPRECATED: Use of Uninitialized Resource,False
+1188,Insecure Default Initialization of Resource,False
+1189,Improper Isolation of Shared Resources on System-on-Chip (SoC),False
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer,False
+1190,DMA Device Enabled Too Early in Boot Phase,False
+1191,Exposed Chip Debug Interface With Insufficient Access Control,False
+1192,"System-on-Chip (SoC) Using Components without Unique, Immutable Identifiers",False
+1193,Power-On of Untrusted Execution Core Before Enabling Fabric Access Control,False
+12,ASP.NET Misconfiguration: Missing Custom Error Page,False
+120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),False
+1209,Failure to Disable Reserved Bits,False
+121,Stack-based Buffer Overflow,False
+122,Heap-based Buffer Overflow,False
+1220,Insufficient Granularity of Access Control,False
+1221,Incorrect Register Defaults or Module Parameters,False
+1222,Insufficient Granularity of Address Regions Protected by Register Locks,False
+1223,Race Condition for Write-Once Attributes,False
+1224,Improper Restriction of Write-Once Bit Fields,False
+1229,Creation of Emergent Resource,False
+123,Write-what-where Condition,False
+1230,Exposure of Sensitive Information Through Metadata,False
+1231,Improper Implementation of Lock Protection Registers,False
+1232,Improper Lock Behavior After Power State Transition,False
+1233,Improper Hardware Lock Protection for Security Sensitive Controls,False
+1234,Hardware Internal or Debug Modes Allow Override of Locks,False
+1235,Incorrect Use of Autoboxing and Unboxing for Performance Critical Operations,False
+1236,Improper Neutralization of Formula Elements in a CSV File,False
+1239,Improper Zeroization of Hardware Register,False
+124,Buffer Underwrite ('Buffer Underflow'),False
+1240,Use of a Risky Cryptographic Primitive,False
+1241,Use of Predictable Algorithm in Random Number Generator,False
+1242,Inclusion of Undocumented Features or Chicken Bits,False
+1243,Exposure of Security-Sensitive Fuse Values During Debug,False
+1244,Improper Authorization on Physical Debug and Test Interfaces,False
+1245,Improper Finite State Machines (FSMs) in Hardware Logic,False
+1246,Improper Write Handling in Limited-write Non-Volatile Memories,False
+1247,Missing Protection Against Voltage and Clock Glitches,False
+1248,Semiconductor Defects in Hardware Logic with Security-Sensitive Implications,False
+1249,Application-Level Admin Tool with Inconsistent View of Underlying Operating System,False
+125,Out-of-bounds Read,False
+1250,Improper Preservation of Consistency Between Independent Representations of Shared State,False
+1251,Mirrored Regions with Different Values,False
+1252,CPU Hardware Not Configured to Support Exclusivity of Write and Execute Operations,False
+126,Buffer Over-read,False
+127,Buffer Under-read,False
+128,Wrap-around Error,False
+129,Improper Validation of Array Index,False
+13,ASP.NET Misconfiguration: Password in Configuration File,False
+130,Improper Handling of Length Parameter Inconsistency,False
+131,Incorrect Calculation of Buffer Size,False
+132,DEPRECATED (Duplicate): Miscalculated Null Termination,False
+134,Use of Externally-Controlled Format String,False
+135,Incorrect Calculation of Multi-Byte String Length,False
+138,Improper Neutralization of Special Elements,False
+14,Compiler Removal of Code to Clear Buffers,False
+140,Improper Neutralization of Delimiters,False
+141,Improper Neutralization of Parameter/Argument Delimiters,False
+142,Improper Neutralization of Value Delimiters,False
+143,Improper Neutralization of Record Delimiters,False
+144,Improper Neutralization of Line Delimiters,False
+145,Improper Neutralization of Section Delimiters,False
+146,Improper Neutralization of Expression/Command Delimiters,False
+147,Improper Neutralization of Input Terminators,False
+148,Improper Neutralization of Input Leaders,False
+149,Improper Neutralization of Quoting Syntax,False
+15,External Control of System or Configuration Setting,False
+150,"Improper Neutralization of Escape, Meta, or Control Sequences",False
+151,Improper Neutralization of Comment Delimiters,False
+152,Improper Neutralization of Macro Symbols,False
+153,Improper Neutralization of Substitution Characters,False
+154,Improper Neutralization of Variable Name Delimiters,False
+155,Improper Neutralization of Wildcards or Matching Symbols,False
+156,Improper Neutralization of Whitespace,False
+157,Failure to Sanitize Paired Delimiters,False
+158,Improper Neutralization of Null Byte or NUL Character,False
+159,Improper Handling of Invalid Use of Special Elements,False
+160,Improper Neutralization of Leading Special Elements,False
+161,Improper Neutralization of Multiple Leading Special Elements,False
+162,Improper Neutralization of Trailing Special Elements,False
+163,Improper Neutralization of Multiple Trailing Special Elements,False
+164,Improper Neutralization of Internal Special Elements,False
+165,Improper Neutralization of Multiple Internal Special Elements,False
+166,Improper Handling of Missing Special Element,False
+167,Improper Handling of Additional Special Element,False
+168,Improper Handling of Inconsistent Special Elements,False
+170,Improper Null Termination,False
+172,Encoding Error,False
+173,Improper Handling of Alternate Encoding,False
+174,Double Decoding of the Same Data,False
+175,Improper Handling of Mixed Encoding,False
+176,Improper Handling of Unicode Encoding,False
+177,Improper Handling of URL Encoding (Hex Encoding),False
+178,Improper Handling of Case Sensitivity,False
+179,Incorrect Behavior Order: Early Validation,False
+180,Incorrect Behavior Order: Validate Before Canonicalize,False
+181,Incorrect Behavior Order: Validate Before Filter,False
+182,Collapse of Data into Unsafe Value,False
+183,Permissive List of Allowed Inputs,False
+184,Incomplete List of Disallowed Inputs,False
+185,Incorrect Regular Expression,False
+186,Overly Restrictive Regular Expression,False
+187,Partial String Comparison,False
+188,Reliance on Data/Memory Layout,False
+190,Integer Overflow or Wraparound,False
+191,Integer Underflow (Wrap or Wraparound),False
+192,Integer Coercion Error,False
+193,Off-by-one Error,False
+194,Unexpected Sign Extension,False
+195,Signed to Unsigned Conversion Error,False
+196,Unsigned to Signed Conversion Error,False
+197,Numeric Truncation Error,False
+198,Use of Incorrect Byte Ordering,False
+20,Improper Input Validation,False
+200,Exposure of Sensitive Information to an Unauthorized Actor,False
+201,Exposure of Sensitive Information Through Sent Data,False
+202,Exposure of Sensitive Information Through Data Queries,False
+203,Observable Discrepancy,False
+204,Observable Response Discrepancy,False
+205,Observable Behavioral Discrepancy,False
+206,Observable Internal Behavioral Discrepancy,False
+207,Observable Behavioral Discrepancy With Equivalent Products,False
+208,Observable Timing Discrepancy,False
+209,Generation of Error Message Containing Sensitive Information,False
+210,Self-generated Error Message Containing Sensitive Information,False
+211,Externally-Generated Error Message Containing Sensitive Information,False
+212,Improper Removal of Sensitive Information Before Storage or Transfer,False
+213,Exposure of Sensitive Information Due to Incompatible Policies,False
+214,Invocation of Process Using Visible Sensitive Information,False
+215,Insertion of Sensitive Information Into Debugging Code,False
+216,DEPRECATED: Containment Errors (Container Errors),False
+217,DEPRECATED: Failure to Protect Stored Data from Modification,False
+218,DEPRECATED (Duplicate): Failure to provide confidentiality for stored data,False
+219,Storage of File with Sensitive Data Under Web Root,False
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),False
+220,Storage of File With Sensitive Data Under FTP Root,False
+221,Information Loss or Omission,False
+222,Truncation of Security-relevant Information,False
+223,Omission of Security-relevant Information,False
+224,Obscured Security-relevant Information by Alternate Name,False
+225,DEPRECATED (Duplicate): General Information Management Problems,False
+226,Sensitive Information Uncleared in Resource Before Release for Reuse,False
+228,Improper Handling of Syntactically Invalid Structure,False
+229,Improper Handling of Values,False
+23,Relative Path Traversal,False
+230,Improper Handling of Missing Values,False
+231,Improper Handling of Extra Values,False
+232,Improper Handling of Undefined Values,False
+233,Improper Handling of Parameters,False
+234,Failure to Handle Missing Parameter,False
+235,Improper Handling of Extra Parameters,False
+236,Improper Handling of Undefined Parameters,False
+237,Improper Handling of Structural Elements,False
+238,Improper Handling of Incomplete Structural Elements,False
+239,Failure to Handle Incomplete Element,False
+24,Path Traversal: '../filedir',False
+240,Improper Handling of Inconsistent Structural Elements,False
+241,Improper Handling of Unexpected Data Type,False
+242,Use of Inherently Dangerous Function,False
+243,Creation of chroot Jail Without Changing Working Directory,False
+244,Improper Clearing of Heap Memory Before Release ('Heap Inspection'),False
+245,J2EE Bad Practices: Direct Management of Connections,False
+246,J2EE Bad Practices: Direct Use of Sockets,False
+247,DEPRECATED (Duplicate): Reliance on DNS Lookups in a Security Decision,False
+248,Uncaught Exception,False
+249,DEPRECATED: Often Misused: Path Manipulation,False
+25,Path Traversal: '/../filedir',False
+250,Execution with Unnecessary Privileges,False
+252,Unchecked Return Value,False
+253,Incorrect Check of Function Return Value,False
+256,Unprotected Storage of Credentials,False
+257,Storing Passwords in a Recoverable Format,False
+258,Empty Password in Configuration File,False
+259,Use of Hard-coded Password,False
+26,Path Traversal: '/dir/../filename',False
+260,Password in Configuration File,False
+261,Weak Encoding for Password,False
+262,Not Using Password Aging,False
+263,Password Aging with Long Expiration,False
+266,Incorrect Privilege Assignment,False
+267,Privilege Defined With Unsafe Actions,False
+268,Privilege Chaining,False
+269,Improper Privilege Management,False
+27,Path Traversal: 'dir/../../filename',False
+270,Privilege Context Switching Error,False
+271,Privilege Dropping / Lowering Errors,False
+272,Least Privilege Violation,False
+273,Improper Check for Dropped Privileges,False
+274,Improper Handling of Insufficient Privileges,False
+276,Incorrect Default Permissions,False
+277,Insecure Inherited Permissions,False
+278,Insecure Preserved Inherited Permissions,False
+279,Incorrect Execution-Assigned Permissions,False
+28,Path Traversal: '..\filedir',False
+280,Improper Handling of Insufficient Permissions or Privileges ,False
+281,Improper Preservation of Permissions,False
+282,Improper Ownership Management,False
+283,Unverified Ownership,False
+284,Improper Access Control,False
+285,Improper Authorization,False
+286,Incorrect User Management,False
+287,Improper Authentication,False
+288,Authentication Bypass Using an Alternate Path or Channel,False
+289,Authentication Bypass by Alternate Name,False
+29,Path Traversal: '\..\filename',False
+290,Authentication Bypass by Spoofing,False
+291,Reliance on IP Address for Authentication,False
+292,DEPRECATED (Duplicate): Trusting Self-reported DNS Name,False
+293,Using Referer Field for Authentication,False
+294,Authentication Bypass by Capture-replay,False
+295,Improper Certificate Validation,False
+296,Improper Following of a Certificate's Chain of Trust,False
+297,Improper Validation of Certificate with Host Mismatch,False
+298,Improper Validation of Certificate Expiration,False
+299,Improper Check for Certificate Revocation,False
+30,Path Traversal: '\dir\..\filename',False
+300,Channel Accessible by Non-Endpoint,False
+301,Reflection Attack in an Authentication Protocol,False
+302,Authentication Bypass by Assumed-Immutable Data,False
+303,Incorrect Implementation of Authentication Algorithm,False
+304,Missing Critical Step in Authentication,False
+305,Authentication Bypass by Primary Weakness,False
+306,Missing Authentication for Critical Function,False
+307,Improper Restriction of Excessive Authentication Attempts,False
+308,Use of Single-factor Authentication,False
+309,Use of Password System for Primary Authentication,False
+31,Path Traversal: 'dir\..\..\filename',False
+311,Missing Encryption of Sensitive Data,False
+312,Cleartext Storage of Sensitive Information,False
+313,Cleartext Storage in a File or on Disk,False
+314,Cleartext Storage in the Registry,False
+315,Cleartext Storage of Sensitive Information in a Cookie,False
+316,Cleartext Storage of Sensitive Information in Memory,False
+317,Cleartext Storage of Sensitive Information in GUI,False
+318,Cleartext Storage of Sensitive Information in Executable,False
+319,Cleartext Transmission of Sensitive Information,False
+32,Path Traversal: '...' (Triple Dot),False
+321,Use of Hard-coded Cryptographic Key,False
+322,Key Exchange without Entity Authentication,False
+323,"Reusing a Nonce, Key Pair in Encryption",False
+324,Use of a Key Past its Expiration Date,False
+325,Missing Required Cryptographic Step,False
+326,Inadequate Encryption Strength,False
+327,Use of a Broken or Risky Cryptographic Algorithm,False
+328,Reversible One-Way Hash,False
+329,Not Using a Random IV with CBC Mode,False
+33,Path Traversal: '....' (Multiple Dot),False
+330,Use of Insufficiently Random Values,False
+331,Insufficient Entropy,False
+332,Insufficient Entropy in PRNG,False
+333,Improper Handling of Insufficient Entropy in TRNG,False
+334,Small Space of Random Values,False
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),False
+336,Same Seed in Pseudo-Random Number Generator (PRNG),False
+337,Predictable Seed in Pseudo-Random Number Generator (PRNG),False
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),False
+339,Small Seed Space in PRNG,False
+34,Path Traversal: '....//',False
+340,Generation of Predictable Numbers or Identifiers,False
+341,Predictable from Observable State,False
+342,Predictable Exact Value from Previous Values,False
+343,Predictable Value Range from Previous Values,False
+344,Use of Invariant Value in Dynamically Changing Context,False
+345,Insufficient Verification of Data Authenticity,False
+346,Origin Validation Error,False
+347,Improper Verification of Cryptographic Signature,False
+348,Use of Less Trusted Source,False
+349,Acceptance of Extraneous Untrusted Data With Trusted Data,False
+35,Path Traversal: '.../...//',False
+350,Reliance on Reverse DNS Resolution for a Security-Critical Action,False
+351,Insufficient Type Distinction,False
+352,Cross-Site Request Forgery (CSRF),False
+353,Missing Support for Integrity Check,False
+354,Improper Validation of Integrity Check Value,False
+356,Product UI does not Warn User of Unsafe Actions,False
+357,Insufficient UI Warning of Dangerous Operations,False
+358,Improperly Implemented Security Check for Standard,False
+359,Exposure of Private Personal Information to an Unauthorized Actor,False
+36,Absolute Path Traversal,False
+360,Trust of System Event Data,False
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition'),False
+363,Race Condition Enabling Link Following,False
+364,Signal Handler Race Condition,False
+365,Race Condition in Switch,False
+366,Race Condition within a Thread,False
+367,Time-of-check Time-of-use (TOCTOU) Race Condition,False
+368,Context Switching Race Condition,False
+369,Divide By Zero,False
+37,Path Traversal: '/absolute/pathname/here',False
+370,Missing Check for Certificate Revocation after Initial Check,False
+372,Incomplete Internal State Distinction,False
+373,DEPRECATED: State Synchronization Error,False
+374,Passing Mutable Objects to an Untrusted Method,False
+375,Returning a Mutable Object to an Untrusted Caller,False
+377,Insecure Temporary File,False
+378,Creation of Temporary File With Insecure Permissions,False
+379,Creation of Temporary File in Directory with Insecure Permissions,False
+38,Path Traversal: '\absolute\pathname\here',False
+382,J2EE Bad Practices: Use of System.exit(),False
+383,J2EE Bad Practices: Direct Use of Threads,False
+384,Session Fixation,False
+385,Covert Timing Channel,False
+386,Symbolic Name not Mapping to Correct Object,False
+39,Path Traversal: 'C:dirname',False
+390,Detection of Error Condition Without Action,False
+391,Unchecked Error Condition,False
+392,Missing Report of Error Condition,False
+393,Return of Wrong Status Code,False
+394,Unexpected Status Code or Return Value,False
+395,Use of NullPointerException Catch to Detect NULL Pointer Dereference,False
+396,Declaration of Catch for Generic Exception,False
+397,Declaration of Throws for Generic Exception,False
+40,Path Traversal: '\\UNC\share\name\' (Windows UNC Share),False
+400,Uncontrolled Resource Consumption,False
+401,Missing Release of Memory after Effective Lifetime,False
+402,Transmission of Private Resources into a New Sphere ('Resource Leak'),False
+403,Exposure of File Descriptor to Unintended Control Sphere ('File Descriptor Leak'),False
+404,Improper Resource Shutdown or Release,False
+405,Asymmetric Resource Consumption (Amplification),False
+406,Insufficient Control of Network Message Volume (Network Amplification),False
+407,Inefficient Algorithmic Complexity,False
+408,Incorrect Behavior Order: Early Amplification,False
+409,Improper Handling of Highly Compressed Data (Data Amplification),False
+41,Improper Resolution of Path Equivalence,False
+410,Insufficient Resource Pool,False
+412,Unrestricted Externally Accessible Lock,False
+413,Improper Resource Locking,False
+414,Missing Lock Check,False
+415,Double Free,False
+416,Use After Free,False
+419,Unprotected Primary Channel,False
+42,Path Equivalence: 'filename.' (Trailing Dot),False
+420,Unprotected Alternate Channel,False
+421,Race Condition During Access to Alternate Channel,False
+422,Unprotected Windows Messaging Channel ('Shatter'),False
+423,DEPRECATED (Duplicate): Proxied Trusted Channel,False
+424,Improper Protection of Alternate Path,False
+425,Direct Request ('Forced Browsing'),False
+426,Untrusted Search Path,False
+427,Uncontrolled Search Path Element,False
+428,Unquoted Search Path or Element,False
+43,Path Equivalence: 'filename....' (Multiple Trailing Dot),False
+430,Deployment of Wrong Handler,False
+431,Missing Handler,False
+432,Dangerous Signal Handler not Disabled During Sensitive Operations,False
+433,Unparsed Raw Web Content Delivery,False
+434,Unrestricted Upload of File with Dangerous Type,False
+435,Improper Interaction Between Multiple Correctly-Behaving Entities,False
+436,Interpretation Conflict,False
+437,Incomplete Model of Endpoint Features,False
+439,Behavioral Change in New Version or Environment,False
+44,Path Equivalence: 'file.name' (Internal Dot),False
+440,Expected Behavior Violation,False
+441,Unintended Proxy or Intermediary ('Confused Deputy'),False
+443,DEPRECATED (Duplicate): HTTP response splitting,False
+444,Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling'),False
+446,UI Discrepancy for Security Feature,False
+447,Unimplemented or Unsupported Feature in UI,False
+448,Obsolete Feature in UI,False
+449,The UI Performs the Wrong Action,False
+45,Path Equivalence: 'file...name' (Multiple Internal Dot),False
+450,Multiple Interpretations of UI Input,False
+451,User Interface (UI) Misrepresentation of Critical Information,False
+453,Insecure Default Variable Initialization,False
+454,External Initialization of Trusted Variables or Data Stores,False
+455,Non-exit on Failed Initialization,False
+456,Missing Initialization of a Variable,False
+457,Use of Uninitialized Variable,False
+458,DEPRECATED: Incorrect Initialization,False
+459,Incomplete Cleanup,False
+46,Path Equivalence: 'filename ' (Trailing Space),False
+460,Improper Cleanup on Thrown Exception,False
+462,Duplicate Key in Associative List (Alist),False
+463,Deletion of Data Structure Sentinel,False
+464,Addition of Data Structure Sentinel,False
+466,Return of Pointer Value Outside of Expected Range,False
+467,Use of sizeof() on a Pointer Type,False
+468,Incorrect Pointer Scaling,False
+469,Use of Pointer Subtraction to Determine Size,False
+47,Path Equivalence: ' filename' (Leading Space),False
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),False
+471,Modification of Assumed-Immutable Data (MAID),False
+472,External Control of Assumed-Immutable Web Parameter,False
+473,PHP External Variable Modification,False
+474,Use of Function with Inconsistent Implementations,False
+475,Undefined Behavior for Input to API,False
+476,NULL Pointer Dereference,False
+477,Use of Obsolete Function,False
+478,Missing Default Case in Switch Statement,False
+479,Signal Handler Use of a Non-reentrant Function,False
+48,Path Equivalence: 'file name' (Internal Whitespace),False
+480,Use of Incorrect Operator,False
+481,Assigning instead of Comparing,False
+482,Comparing instead of Assigning,False
+483,Incorrect Block Delimitation,False
+484,Omitted Break Statement in Switch,False
+486,Comparison of Classes by Name,False
+487,Reliance on Package-level Scope,False
+488,Exposure of Data Element to Wrong Session,False
+489,Active Debug Code,False
+49,Path Equivalence: 'filename/' (Trailing Slash),False
+491,Public cloneable() Method Without Final ('Object Hijack'),False
+492,Use of Inner Class Containing Sensitive Data,False
+493,Critical Public Variable Without Final Modifier,False
+494,Download of Code Without Integrity Check,False
+495,Private Data Structure Returned From A Public Method,False
+496,Public Data Assigned to Private Array-Typed Field,False
+497,Exposure of Sensitive System Information to an Unauthorized Control Sphere,False
+498,Cloneable Class Containing Sensitive Information,False
+499,Serializable Class Containing Sensitive Data,False
+5,J2EE Misconfiguration: Data Transmission Without Encryption,False
+50,Path Equivalence: '//multiple/leading/slash',False
+500,Public Static Field Not Marked Final,False
+501,Trust Boundary Violation,False
+502,Deserialization of Untrusted Data,False
+506,Embedded Malicious Code,False
+507,Trojan Horse,False
+508,Non-Replicating Malicious Code,False
+509,Replicating Malicious Code (Virus or Worm),False
+51,Path Equivalence: '/multiple//internal/slash',False
+510,Trapdoor,False
+511,Logic/Time Bomb,False
+512,Spyware,False
+514,Covert Channel,False
+515,Covert Storage Channel,False
+516,DEPRECATED (Duplicate): Covert Timing Channel,False
+52,Path Equivalence: '/multiple/trailing/slash//',False
+520,.NET Misconfiguration: Use of Impersonation,False
+521,Weak Password Requirements,False
+522,Insufficiently Protected Credentials,False
+523,Unprotected Transport of Credentials,False
+524,Use of Cache Containing Sensitive Information,False
+525,Use of Web Browser Cache Containing Sensitive Information,False
+526,Exposure of Sensitive Information Through Environmental Variables,False
+527,Exposure of Version-Control Repository to an Unauthorized Control Sphere,False
+528,Exposure of Core Dump File to an Unauthorized Control Sphere,False
+529,Exposure of Access Control List Files to an Unauthorized Control Sphere,False
+53,Path Equivalence: '\multiple\\internal\backslash',False
+530,Exposure of Backup File to an Unauthorized Control Sphere,False
+531,Inclusion of Sensitive Information in Test Code,False
+532,Insertion of Sensitive Information into Log File,False
+533,DEPRECATED: Information Exposure Through Server Log Files,False
+534,DEPRECATED: Information Exposure Through Debug Log Files,False
+535,Exposure of Information Through Shell Error Message,False
+536,Servlet Runtime Error Message Containing Sensitive Information,False
+537,Java Runtime Error Message Containing Sensitive Information,False
+538,Insertion of Sensitive Information into Externally-Accessible File or Directory,False
+539,Use of Persistent Cookies Containing Sensitive Information,False
+54,Path Equivalence: 'filedir\' (Trailing Backslash),False
+540,Inclusion of Sensitive Information in Source Code,False
+541,Inclusion of Sensitive Information in an Include File,False
+542,DEPRECATED: Information Exposure Through Cleanup Log Files,False
+543,Use of Singleton Pattern Without Synchronization in a Multithreaded Context,False
+544,Missing Standardized Error Handling Mechanism,False
+545,DEPRECATED: Use of Dynamic Class Loading,False
+546,Suspicious Comment,False
+547,"Use of Hard-coded, Security-relevant Constants",False
+548,Exposure of Information Through Directory Listing,False
+549,Missing Password Field Masking,False
+55,Path Equivalence: '/./' (Single Dot Directory),False
+550,Server-generated Error Message Containing Sensitive Information,False
+551,Incorrect Behavior Order: Authorization Before Parsing and Canonicalization,False
+552,Files or Directories Accessible to External Parties,False
+553,Command Shell in Externally Accessible Directory,False
+554,ASP.NET Misconfiguration: Not Using Input Validation Framework,False
+555,J2EE Misconfiguration: Plaintext Password in Configuration File,False
+556,ASP.NET Misconfiguration: Use of Identity Impersonation,False
+558,Use of getlogin() in Multithreaded Application,False
+56,Path Equivalence: 'filedir*' (Wildcard),False
+560,Use of umask() with chmod-style Argument,False
+561,Dead Code,False
+562,Return of Stack Variable Address,False
+563,Assignment to Variable without Use,False
+564,SQL Injection: Hibernate,False
+565,Reliance on Cookies without Validation and Integrity Checking,False
+566,Authorization Bypass Through User-Controlled SQL Primary Key,False
+567,Unsynchronized Access to Shared Data in a Multithreaded Context,False
+568,finalize() Method Without super.finalize(),False
+57,Path Equivalence: 'fakedir/../realdir/filename',False
+570,Expression is Always False,False
+571,Expression is Always True,False
+572,Call to Thread run() instead of start(),False
+573,Improper Following of Specification by Caller,False
+574,EJB Bad Practices: Use of Synchronization Primitives,False
+575,EJB Bad Practices: Use of AWT Swing,False
+576,EJB Bad Practices: Use of Java I/O,False
+577,EJB Bad Practices: Use of Sockets,False
+578,EJB Bad Practices: Use of Class Loader,False
+579,J2EE Bad Practices: Non-serializable Object Stored in Session,False
+58,Path Equivalence: Windows 8.3 Filename,False
+580,clone() Method Without super.clone(),False
+581,Object Model Violation: Just One of Equals and Hashcode Defined,False
+582,"Array Declared Public, Final, and Static",False
+583,finalize() Method Declared Public,False
+584,Return Inside Finally Block,False
+585,Empty Synchronized Block,False
+586,Explicit Call to Finalize(),False
+587,Assignment of a Fixed Address to a Pointer,False
+588,Attempt to Access Child of a Non-structure Pointer,False
+589,Call to Non-ubiquitous API,False
+59,Improper Link Resolution Before File Access ('Link Following'),False
+590,Free of Memory not on the Heap,False
+591,Sensitive Data Storage in Improperly Locked Memory,False
+592,DEPRECATED: Authentication Bypass Issues,False
+593,Authentication Bypass: OpenSSL CTX Object Modified after SSL Objects are Created,False
+594,J2EE Framework: Saving Unserializable Objects to Disk,False
+595,Comparison of Object References Instead of Object Contents,False
+596,DEPRECATED: Incorrect Semantic Object Comparison,False
+597,Use of Wrong Operator in String Comparison,False
+598,Use of GET Request Method With Sensitive Query Strings,False
+599,Missing Validation of OpenSSL Certificate,False
+6,J2EE Misconfiguration: Insufficient Session-ID Length,False
+600,Uncaught Exception in Servlet ,False
+601,URL Redirection to Untrusted Site ('Open Redirect'),False
+602,Client-Side Enforcement of Server-Side Security,False
+603,Use of Client-Side Authentication,False
+605,Multiple Binds to the Same Port,False
+606,Unchecked Input for Loop Condition,False
+607,Public Static Final Field References Mutable Object,False
+608,Struts: Non-private Field in ActionForm Class,False
+609,Double-Checked Locking,False
+61,UNIX Symbolic Link (Symlink) Following,False
+610,Externally Controlled Reference to a Resource in Another Sphere,False
+611,Improper Restriction of XML External Entity Reference,False
+612,Improper Authorization of Index Containing Sensitive Information,False
+613,Insufficient Session Expiration,False
+614,Sensitive Cookie in HTTPS Session Without 'Secure' Attribute,False
+615,Inclusion of Sensitive Information in Source Code Comments,False
+616,Incomplete Identification of Uploaded File Variables (PHP),False
+617,Reachable Assertion,False
+618,Exposed Unsafe ActiveX Method,False
+619,Dangling Database Cursor ('Cursor Injection'),False
+62,UNIX Hard Link,False
+620,Unverified Password Change,False
+621,Variable Extraction Error,False
+622,Improper Validation of Function Hook Arguments,False
+623,Unsafe ActiveX Control Marked Safe For Scripting,False
+624,Executable Regular Expression Error,False
+625,Permissive Regular Expression,False
+626,Null Byte Interaction Error (Poison Null Byte),False
+627,Dynamic Variable Evaluation,False
+628,Function Call with Incorrectly Specified Arguments,False
+636,Not Failing Securely ('Failing Open'),False
+637,Unnecessary Complexity in Protection Mechanism (Not Using 'Economy of Mechanism'),False
+638,Not Using Complete Mediation,False
+639,Authorization Bypass Through User-Controlled Key,False
+64,Windows Shortcut Following (.LNK),False
+640,Weak Password Recovery Mechanism for Forgotten Password,False
+641,Improper Restriction of Names for Files and Other Resources,False
+642,External Control of Critical State Data,False
+643,Improper Neutralization of Data within XPath Expressions ('XPath Injection'),False
+644,Improper Neutralization of HTTP Headers for Scripting Syntax,False
+645,Overly Restrictive Account Lockout Mechanism,False
+646,Reliance on File Name or Extension of Externally-Supplied File,False
+647,Use of Non-Canonical URL Paths for Authorization Decisions,False
+648,Incorrect Use of Privileged APIs,False
+649,Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking,False
+65,Windows Hard Link,False
+650,Trusting HTTP Permission Methods on the Server Side,False
+651,Exposure of WSDL File Containing Sensitive Information,False
+652,Improper Neutralization of Data within XQuery Expressions ('XQuery Injection'),False
+653,Insufficient Compartmentalization,False
+654,Reliance on a Single Factor in a Security Decision,False
+655,Insufficient Psychological Acceptability,False
+656,Reliance on Security Through Obscurity,False
+657,Violation of Secure Design Principles,False
+66,Improper Handling of File Names that Identify Virtual Resources,False
+662,Improper Synchronization,False
+663,Use of a Non-reentrant Function in a Concurrent Context,False
+664,Improper Control of a Resource Through its Lifetime,False
+665,Improper Initialization,False
+666,Operation on Resource in Wrong Phase of Lifetime,False
+667,Improper Locking,False
+668,Exposure of Resource to Wrong Sphere,False
+669,Incorrect Resource Transfer Between Spheres,False
+67,Improper Handling of Windows Device Names,False
+670,Always-Incorrect Control Flow Implementation,False
+671,Lack of Administrator Control over Security,False
+672,Operation on a Resource after Expiration or Release,False
+673,External Influence of Sphere Definition,False
+674,Uncontrolled Recursion,False
+675,Duplicate Operations on Resource,False
+676,Use of Potentially Dangerous Function,False
+680,Integer Overflow to Buffer Overflow,False
+681,Incorrect Conversion between Numeric Types,False
+682,Incorrect Calculation,False
+683,Function Call With Incorrect Order of Arguments,False
+684,Incorrect Provision of Specified Functionality,False
+685,Function Call With Incorrect Number of Arguments,False
+686,Function Call With Incorrect Argument Type,False
+687,Function Call With Incorrectly Specified Argument Value,False
+688,Function Call With Incorrect Variable or Reference as Argument,False
+689,Permission Race Condition During Resource Copy,False
+69,Improper Handling of Windows ::DATA Alternate Data Stream,False
+690,Unchecked Return Value to NULL Pointer Dereference,False
+691,Insufficient Control Flow Management,False
+692,Incomplete Blacklist to Cross-Site Scripting,False
+693,Protection Mechanism Failure,False
+694,Use of Multiple Resources with Duplicate Identifier,False
+695,Use of Low-Level Functionality,False
+696,Incorrect Behavior Order,False
+697,Incorrect Comparison,False
+698,Execution After Redirect (EAR),False
+7,J2EE Misconfiguration: Missing Custom Error Page,False
+703,Improper Check or Handling of Exceptional Conditions,False
+704,Incorrect Type Conversion or Cast,False
+705,Incorrect Control Flow Scoping,False
+706,Use of Incorrectly-Resolved Name or Reference,False
+707,Improper Neutralization,False
+708,Incorrect Ownership Assignment,False
+71,DEPRECATED: Apple '.DS_Store',False
+710,Improper Adherence to Coding Standards,False
+72,Improper Handling of Apple HFS+ Alternate Data Stream Path,False
+73,External Control of File Name or Path,False
+732,Incorrect Permission Assignment for Critical Resource,False
+733,Compiler Optimization Removal or Modification of Security-critical Code,False
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection'),False
+749,Exposed Dangerous Method or Function,False
+75,Failure to Sanitize Special Elements into a Different Plane (Special Element Injection),False
+754,Improper Check for Unusual or Exceptional Conditions,False
+755,Improper Handling of Exceptional Conditions,False
+756,Missing Custom Error Page,False
+757,Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade'),False
+758,"Reliance on Undefined, Unspecified, or Implementation-Defined Behavior",False
+759,Use of a One-Way Hash without a Salt,False
+76,Improper Neutralization of Equivalent Special Elements,False
+760,Use of a One-Way Hash with a Predictable Salt,False
+761,Free of Pointer not at Start of Buffer,False
+762,Mismatched Memory Management Routines,False
+763,Release of Invalid Pointer or Reference,False
+764,Multiple Locks of a Critical Resource,False
+765,Multiple Unlocks of a Critical Resource,False
+766,Critical Data Element Declared Public,False
+767,Access to Critical Private Variable via Public Method,False
+768,Incorrect Short Circuit Evaluation,False
+769,DEPRECATED: Uncontrolled File Descriptor Consumption,False
+77,Improper Neutralization of Special Elements used in a Command ('Command Injection'),False
+770,Allocation of Resources Without Limits or Throttling,False
+771,Missing Reference to Active Allocated Resource,False
+772,Missing Release of Resource after Effective Lifetime,False
+773,Missing Reference to Active File Descriptor or Handle,False
+774,Allocation of File Descriptors or Handles Without Limits or Throttling,False
+775,Missing Release of File Descriptor or Handle after Effective Lifetime,False
+776,Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),False
+777,Regular Expression without Anchors,False
+778,Insufficient Logging,False
+779,Logging of Excessive Data,False
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),False
+780,Use of RSA Algorithm without OAEP,False
+781,Improper Address Validation in IOCTL with METHOD_NEITHER I/O Control Code,False
+782,Exposed IOCTL with Insufficient Access Control,False
+783,Operator Precedence Logic Error,False
+784,Reliance on Cookies without Validation and Integrity Checking in a Security Decision,False
+785,Use of Path Manipulation Function without Maximum-sized Buffer,False
+786,Access of Memory Location Before Start of Buffer,False
+787,Out-of-bounds Write,False
+788,Access of Memory Location After End of Buffer,False
+789,Uncontrolled Memory Allocation,False
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),False
+790,Improper Filtering of Special Elements,False
+791,Incomplete Filtering of Special Elements,False
+792,Incomplete Filtering of One or More Instances of Special Elements,False
+793,Only Filtering One Instance of a Special Element,False
+794,Incomplete Filtering of Multiple Instances of Special Elements,False
+795,Only Filtering Special Elements at a Specified Location,False
+796,Only Filtering Special Elements Relative to a Marker,False
+797,Only Filtering Special Elements at an Absolute Position,False
+798,Use of Hard-coded Credentials,False
+799,Improper Control of Interaction Frequency,False
+8,J2EE Misconfiguration: Entity Bean Declared Remote,False
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS),False
+804,Guessable CAPTCHA,False
+805,Buffer Access with Incorrect Length Value,False
+806,Buffer Access Using Size of Source Buffer,False
+807,Reliance on Untrusted Inputs in a Security Decision,False
+81,Improper Neutralization of Script in an Error Message Web Page,False
+82,Improper Neutralization of Script in Attributes of IMG Tags in a Web Page,False
+820,Missing Synchronization,False
+821,Incorrect Synchronization,False
+822,Untrusted Pointer Dereference,False
+823,Use of Out-of-range Pointer Offset,False
+824,Access of Uninitialized Pointer,False
+825,Expired Pointer Dereference,False
+826,Premature Release of Resource During Expected Lifetime,False
+827,Improper Control of Document Type Definition,False
+828,Signal Handler with Functionality that is not Asynchronous-Safe,False
+829,Inclusion of Functionality from Untrusted Control Sphere,False
+83,Improper Neutralization of Script in Attributes in a Web Page,False
+830,Inclusion of Web Functionality from an Untrusted Source,False
+831,Signal Handler Function Associated with Multiple Signals,False
+832,Unlock of a Resource that is not Locked,False
+833,Deadlock,False
+834,Excessive Iteration,False
+835,Loop with Unreachable Exit Condition ('Infinite Loop'),False
+836,Use of Password Hash Instead of Password for Authentication,False
+837,"Improper Enforcement of a Single, Unique Action",False
+838,Inappropriate Encoding for Output Context,False
+839,Numeric Range Comparison Without Minimum Check,False
+84,Improper Neutralization of Encoded URI Schemes in a Web Page,False
+841,Improper Enforcement of Behavioral Workflow,False
+842,Placement of User into Incorrect Group,False
+843,Access of Resource Using Incompatible Type ('Type Confusion'),False
+85,Doubled Character XSS Manipulations,False
+86,Improper Neutralization of Invalid Characters in Identifiers in Web Pages,False
+862,Missing Authorization,False
+863,Incorrect Authorization,False
+87,Improper Neutralization of Alternate XSS Syntax,False
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),False
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),False
+9,J2EE Misconfiguration: Weak Access Permissions for EJB Methods,False
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),False
+908,Use of Uninitialized Resource,False
+909,Missing Initialization of Resource,False
+91,XML Injection (aka Blind XPath Injection),False
+910,Use of Expired File Descriptor,False
+911,Improper Update of Reference Count,False
+912,Hidden Functionality,False
+913,Improper Control of Dynamically-Managed Code Resources,False
+914,Improper Control of Dynamically-Identified Variables,False
+915,Improperly Controlled Modification of Dynamically-Determined Object Attributes,False
+916,Use of Password Hash With Insufficient Computational Effort,False
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),False
+918,Server-Side Request Forgery (SSRF),False
+92,DEPRECATED: Improper Sanitization of Custom Special Characters,False
+920,Improper Restriction of Power Consumption,False
+921,Storage of Sensitive Data in a Mechanism without Access Control,False
+922,Insecure Storage of Sensitive Information,False
+923,Improper Restriction of Communication Channel to Intended Endpoints,False
+924,Improper Enforcement of Message Integrity During Transmission in a Communication Channel,False
+925,Improper Verification of Intent by Broadcast Receiver,False
+926,Improper Export of Android Application Components,False
+927,Use of Implicit Intent for Sensitive Communication,False
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection'),False
+939,Improper Authorization in Handler for Custom URL Scheme,False
+94,Improper Control of Generation of Code ('Code Injection'),False
+940,Improper Verification of Source of a Communication Channel,False
+941,Incorrectly Specified Destination in a Communication Channel,False
+942,Overly Permissive Cross-domain Whitelist,False
+943,Improper Neutralization of Special Elements in Data Query Logic,False
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection'),False
+96,Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection'),False
+97,Improper Neutralization of Server-Side Includes (SSI) Within a Web Page,False
+98,Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion'),False
+99,Improper Control of Resource Identifiers ('Resource Injection'),False
+1,DEPRECATED: Location,True
+10,DEPRECATED: ASP.NET Environment Issues,True
+100,DEPRECATED: Technology-Specific Input Validation Problems,True
+1001,SFP Secondary Cluster: Use of an Improper API,True
+1002,SFP Secondary Cluster: Unexpected Entry Points,True
+1005,7PK - Input Validation and Representation,True
+1006,Bad Coding Practices,True
+1009,Audit,True
+101,DEPRECATED: Struts Validation Problems,True
+1010,Authenticate Actors,True
+1011,Authorize Actors,True
+1012,Cross Cutting,True
+1013,Encrypt Data,True
+1014,Identify Actors,True
+1015,Limit Access,True
+1016,Limit Exposure,True
+1017,Lock Computer,True
+1018,Manage User Sessions,True
+1019,Validate Inputs,True
+1020,Verify Message Integrity,True
+1027,OWASP Top Ten 2017 Category A1 - Injection,True
+1028,OWASP Top Ten 2017 Category A2 - Broken Authentication,True
+1029,OWASP Top Ten 2017 Category A3 - Sensitive Data Exposure,True
+1030,OWASP Top Ten 2017 Category A4 - XML External Entities (XXE),True
+1031,OWASP Top Ten 2017 Category A5 - Broken Access Control,True
+1032,OWASP Top Ten 2017 Category A6 - Security Misconfiguration,True
+1033,OWASP Top Ten 2017 Category A7 - Cross-Site Scripting (XSS),True
+1034,OWASP Top Ten 2017 Category A8 - Insecure Deserialization,True
+1035,OWASP Top Ten 2017 Category A9 - Using Components with Known Vulnerabilities,True
+1036,OWASP Top Ten 2017 Category A10 - Insufficient Logging & Monitoring,True
+1129,CISQ Quality Measures - Reliability,True
+1130,CISQ Quality Measures - Maintainability,True
+1131,CISQ Quality Measures - Security,True
+1132,CISQ Quality Measures - Performance,True
+1134,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 00. Input Validation and Data Sanitization (IDS),True
+1135,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 01. Declarations and Initialization (DCL),True
+1136,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 02. Expressions (EXP),True
+1137,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 03. Numeric Types and Operations (NUM),True
+1138,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 04. Characters and Strings (STR),True
+1139,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 05. Object Orientation (OBJ),True
+1140,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 06. Methods (MET),True
+1141,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 07. Exceptional Behavior (ERR),True
+1142,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 08. Visibility and Atomicity (VNA),True
+1143,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 09. Locking (LCK),True
+1144,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 10. Thread APIs (THI),True
+1145,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 11. Thread Pools (TPS),True
+1146,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 12. Thread-Safety Miscellaneous (TSM),True
+1147,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 13. Input Output (FIO),True
+1148,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 14. Serialization (SER),True
+1149,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 15. Platform Security (SEC),True
+1150,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 16. Runtime Environment (ENV),True
+1151,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 17. Java Native Interface (JNI),True
+1152,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 49. Miscellaneous (MSC),True
+1153,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 50. Android (DRD),True
+1155,SEI CERT C Coding Standard - Guidelines 01. Preprocessor (PRE),True
+1156,SEI CERT C Coding Standard - Guidelines 02. Declarations and Initialization (DCL),True
+1157,SEI CERT C Coding Standard - Guidelines 03. Expressions (EXP),True
+1158,SEI CERT C Coding Standard - Guidelines 04. Integers (INT),True
+1159,SEI CERT C Coding Standard - Guidelines 05. Floating Point (FLP),True
+1160,SEI CERT C Coding Standard - Guidelines 06. Arrays (ARR),True
+1161,SEI CERT C Coding Standard - Guidelines 07. Characters and Strings (STR),True
+1162,SEI CERT C Coding Standard - Guidelines 08. Memory Management (MEM),True
+1163,SEI CERT C Coding Standard - Guidelines 09. Input Output (FIO),True
+1165,SEI CERT C Coding Standard - Guidelines 10. Environment (ENV),True
+1166,SEI CERT C Coding Standard - Guidelines 11. Signals (SIG),True
+1167,SEI CERT C Coding Standard - Guidelines 12. Error Handling (ERR),True
+1168,SEI CERT C Coding Standard - Guidelines 13. Application Programming Interfaces (API),True
+1169,SEI CERT C Coding Standard - Guidelines 14. Concurrency (CON),True
+1170,SEI CERT C Coding Standard - Guidelines 48. Miscellaneous (MSC),True
+1171,SEI CERT C Coding Standard - Guidelines 50. POSIX (POS),True
+1172,SEI CERT C Coding Standard - Guidelines 51. Microsoft Windows (WIN) ,True
+1175,SEI CERT Oracle Secure Coding Standard for Java - Guidelines 18. Concurrency (CON),True
+1179,SEI CERT Perl Coding Standard - Guidelines 01. Input Validation and Data Sanitization (IDS),True
+1180,SEI CERT Perl Coding Standard - Guidelines 02. Declarations and Initialization (DCL),True
+1181,SEI CERT Perl Coding Standard - Guidelines 03. Expressions (EXP),True
+1182,SEI CERT Perl Coding Standard - Guidelines 04. Integers (INT),True
+1183,SEI CERT Perl Coding Standard - Guidelines 05. Strings (STR),True
+1184,SEI CERT Perl Coding Standard - Guidelines 06. Object-Oriented Programming (OOP),True
+1185,SEI CERT Perl Coding Standard - Guidelines 07. File Input and Output (FIO),True
+1186,SEI CERT Perl Coding Standard - Guidelines 50. Miscellaneous (MSC),True
+1195,Manufacturing and Life Cycle Management Concerns,True
+1196,Security Flow Issues,True
+1197,Integration Issues,True
+1198,Privilege Separation and Access Control Issues,True
+1199,General Circuit and Logic Design Concerns,True
+1201,Core and Compute Issues,True
+1202,Memory and Storage Issues,True
+1203,"Peripherals, On-chip Fabric, and Interface/IO Problems",True
+1205,Security Primitives and Cryptography Issues,True
+1206,"Power, Clock, and Reset Concerns",True
+1207,Debug and Test Problems,True
+1208,Cross-Cutting Problems,True
+1210,Audit / Logging Errors,True
+1211,Authentication Errors,True
+1212,Authorization Errors,True
+1213,Random Number Issues,True
+1214,Data Integrity Issues,True
+1215,Input Validation Issues,True
+1216,Lockout Mechanism Errors,True
+1217,User Session Errors,True
+1218,Memory Buffer Errors,True
+1219,File Handling Issues,True
+1225,Documentation Issues,True
+1226,Complexity Issues,True
+1227,Encapsulation Issues,True
+1228,API / Function Errors,True
+1237,SFP Primary Cluster: Faulty Resource Release,True
+1238,SFP Primary Cluster: Failure to Release Memory,True
+133,String Errors,True
+136,Type Errors,True
+137,Data Representation Errors,True
+139,DEPRECATED: General Special Element Problems,True
+16,Configuration,True
+169,DEPRECATED: Technology-Specific Special Elements,True
+17,DEPRECATED: Code,True
+171,"DEPRECATED: Cleansing, Canonicalization, and Comparison Errors",True
+18,DEPRECATED: Source Code,True
+189,Numeric Errors,True
+19,Data Processing Errors,True
+199,Information Management Errors,True
+2,7PK - Environment,True
+21,DEPRECATED: Pathname Traversal and Equivalence Errors,True
+227,7PK - API Abuse,True
+251,Often Misused: String Management,True
+254,7PK - Security Features,True
+255,Credentials Management Errors,True
+264,"Permissions, Privileges, and Access Controls",True
+265,Privilege Issues,True
+275,Permission Issues,True
+3,DEPRECATED: Technology-specific Environment Issues,True
+310,Cryptographic Issues,True
+320,Key Management Errors,True
+355,User Interface Security Issues,True
+361,7PK - Time and State,True
+371,State Issues,True
+376,DEPRECATED: Temporary File Issues,True
+380,DEPRECATED: Technology-Specific Time and State Issues,True
+381,DEPRECATED: J2EE Time and State Issues,True
+387,Signal Errors,True
+388,7PK - Errors,True
+389,"Error Conditions, Return Values, Status Codes",True
+398,7PK - Code Quality,True
+399,Resource Management Errors,True
+4,DEPRECATED: J2EE Environment Issues,True
+411,Resource Locking Problems,True
+417,Communication Channel Errors,True
+418,DEPRECATED: Channel Errors,True
+429,Handler Errors,True
+438,Behavioral Problems,True
+442,DEPRECATED: Web Problems,True
+445,DEPRECATED: User Interface Errors,True
+452,Initialization and Cleanup Errors,True
+461,DEPRECATED: Data Structure Issues,True
+465,Pointer Issues,True
+485,7PK - Encapsulation,True
+490,DEPRECATED: Mobile Code Issues,True
+503,DEPRECATED: Byte/Object Code,True
+504,DEPRECATED: Motivation/Intent,True
+505,DEPRECATED: Intentionally Introduced Weakness,True
+513,DEPRECATED: Intentionally Introduced Nonmalicious Weakness,True
+517,"DEPRECATED: Other Intentional, Nonmalicious Weakness",True
+518,DEPRECATED: Inadvertently Introduced Weakness,True
+519,DEPRECATED: .NET Environment Issues,True
+557,Concurrency Issues,True
+559,DEPRECATED: Often Misused: Arguments and Parameters,True
+569,Expression Issues,True
+60,DEPRECATED: UNIX Path Link Problems,True
+63,DEPRECATED: Windows Path Link Problems,True
+632,DEPRECATED: Weaknesses that Affect Files or Directories,True
+633,DEPRECATED: Weaknesses that Affect Memory,True
+634,DEPRECATED: Weaknesses that Affect System Processes,True
+68,DEPRECATED: Windows Virtual File Problems,True
+70,DEPRECATED: Mac Virtual File Problems,True
+712,OWASP Top Ten 2007 Category A1 - Cross Site Scripting (XSS),True
+713,OWASP Top Ten 2007 Category A2 - Injection Flaws,True
+714,OWASP Top Ten 2007 Category A3 - Malicious File Execution,True
+715,OWASP Top Ten 2007 Category A4 - Insecure Direct Object Reference,True
+716,OWASP Top Ten 2007 Category A5 - Cross Site Request Forgery (CSRF),True
+717,OWASP Top Ten 2007 Category A6 - Information Leakage and Improper Error Handling,True
+718,OWASP Top Ten 2007 Category A7 - Broken Authentication and Session Management,True
+719,OWASP Top Ten 2007 Category A8 - Insecure Cryptographic Storage,True
+720,OWASP Top Ten 2007 Category A9 - Insecure Communications,True
+721,OWASP Top Ten 2007 Category A10 - Failure to Restrict URL Access,True
+722,OWASP Top Ten 2004 Category A1 - Unvalidated Input,True
+723,OWASP Top Ten 2004 Category A2 - Broken Access Control,True
+724,OWASP Top Ten 2004 Category A3 - Broken Authentication and Session Management,True
+725,OWASP Top Ten 2004 Category A4 - Cross-Site Scripting (XSS) Flaws,True
+726,OWASP Top Ten 2004 Category A5 - Buffer Overflows,True
+727,OWASP Top Ten 2004 Category A6 - Injection Flaws,True
+728,OWASP Top Ten 2004 Category A7 - Improper Error Handling,True
+729,OWASP Top Ten 2004 Category A8 - Insecure Storage,True
+730,OWASP Top Ten 2004 Category A9 - Denial of Service,True
+731,OWASP Top Ten 2004 Category A10 - Insecure Configuration Management,True
+735,CERT C Secure Coding Standard (2008) Chapter 2 - Preprocessor (PRE),True
+736,CERT C Secure Coding Standard (2008) Chapter 3 - Declarations and Initialization (DCL),True
+737,CERT C Secure Coding Standard (2008) Chapter 4 - Expressions (EXP),True
+738,CERT C Secure Coding Standard (2008) Chapter 5 - Integers (INT),True
+739,CERT C Secure Coding Standard (2008) Chapter 6 - Floating Point (FLP),True
+740,CERT C Secure Coding Standard (2008) Chapter 7 - Arrays (ARR),True
+741,CERT C Secure Coding Standard (2008) Chapter 8 - Characters and Strings (STR),True
+742,CERT C Secure Coding Standard (2008) Chapter 9 - Memory Management (MEM),True
+743,CERT C Secure Coding Standard (2008) Chapter 10 - Input Output (FIO),True
+744,CERT C Secure Coding Standard (2008) Chapter 11 - Environment (ENV),True
+745,CERT C Secure Coding Standard (2008) Chapter 12 - Signals (SIG),True
+746,CERT C Secure Coding Standard (2008) Chapter 13 - Error Handling (ERR),True
+747,CERT C Secure Coding Standard (2008) Chapter 14 - Miscellaneous (MSC),True
+748,CERT C Secure Coding Standard (2008) Appendix - POSIX (POS),True
+751,2009 Top 25 - Insecure Interaction Between Components,True
+752,2009 Top 25 - Risky Resource Management,True
+753,2009 Top 25 - Porous Defenses,True
+801,2010 Top 25 - Insecure Interaction Between Components,True
+802,2010 Top 25 - Risky Resource Management,True
+803,2010 Top 25 - Porous Defenses,True
+808,2010 Top 25 - Weaknesses On the Cusp,True
+810,OWASP Top Ten 2010 Category A1 - Injection,True
+811,OWASP Top Ten 2010 Category A2 - Cross-Site Scripting (XSS),True
+812,OWASP Top Ten 2010 Category A3 - Broken Authentication and Session Management,True
+813,OWASP Top Ten 2010 Category A4 - Insecure Direct Object References,True
+814,OWASP Top Ten 2010 Category A5 - Cross-Site Request Forgery(CSRF),True
+815,OWASP Top Ten 2010 Category A6 - Security Misconfiguration,True
+816,OWASP Top Ten 2010 Category A7 - Insecure Cryptographic Storage,True
+817,OWASP Top Ten 2010 Category A8 - Failure to Restrict URL Access,True
+818,OWASP Top Ten 2010 Category A9 - Insufficient Transport Layer Protection,True
+819,OWASP Top Ten 2010 Category A10 - Unvalidated Redirects and Forwards,True
+840,Business Logic Errors,True
+845,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 2 - Input Validation and Data Sanitization (IDS),True
+846,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 3 - Declarations and Initialization (DCL),True
+847,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 4 - Expressions (EXP),True
+848,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 5 - Numeric Types and Operations (NUM),True
+849,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 6 - Object Orientation (OBJ),True
+850,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 7 - Methods (MET),True
+851,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 8 - Exceptional Behavior (ERR),True
+852,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 9 - Visibility and Atomicity (VNA),True
+853,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 10 - Locking (LCK),True
+854,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 11 - Thread APIs (THI),True
+855,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 12 - Thread Pools (TPS),True
+856,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 13 - Thread-Safety Miscellaneous (TSM),True
+857,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 14 - Input Output (FIO),True
+858,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 15 - Serialization (SER),True
+859,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 16 - Platform Security (SEC),True
+860,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 17 - Runtime Environment (ENV),True
+861,The CERT Oracle Secure Coding Standard for Java (2011) Chapter 18 - Miscellaneous (MSC),True
+864,2011 Top 25 - Insecure Interaction Between Components,True
+865,2011 Top 25 - Risky Resource Management,True
+866,2011 Top 25 - Porous Defenses,True
+867,2011 Top 25 - Weaknesses On the Cusp,True
+869,CERT C++ Secure Coding Section 01 - Preprocessor (PRE),True
+870,CERT C++ Secure Coding Section 02 - Declarations and Initialization (DCL),True
+871,CERT C++ Secure Coding Section 03 - Expressions (EXP),True
+872,CERT C++ Secure Coding Section 04 - Integers (INT),True
+873,CERT C++ Secure Coding Section 05 - Floating Point Arithmetic (FLP),True
+874,CERT C++ Secure Coding Section 06 - Arrays and the STL (ARR),True
+875,CERT C++ Secure Coding Section 07 - Characters and Strings (STR),True
+876,CERT C++ Secure Coding Section 08 - Memory Management (MEM),True
+877,CERT C++ Secure Coding Section 09 - Input Output (FIO),True
+878,CERT C++ Secure Coding Section 10 - Environment (ENV),True
+879,CERT C++ Secure Coding Section 11 - Signals (SIG),True
+880,CERT C++ Secure Coding Section 12 - Exceptions and Error Handling (ERR),True
+881,CERT C++ Secure Coding Section 13 - Object Oriented Programming (OOP),True
+882,CERT C++ Secure Coding Section 14 - Concurrency (CON),True
+883,CERT C++ Secure Coding Section 49 - Miscellaneous (MSC),True
+885,SFP Primary Cluster: Risky Values,True
+886,SFP Primary Cluster: Unused entities,True
+887,SFP Primary Cluster: API,True
+889,SFP Primary Cluster: Exception Management,True
+890,SFP Primary Cluster: Memory Access,True
+891,SFP Primary Cluster: Memory Management,True
+892,SFP Primary Cluster: Resource Management,True
+893,SFP Primary Cluster: Path Resolution,True
+894,SFP Primary Cluster: Synchronization,True
+895,SFP Primary Cluster: Information Leak,True
+896,SFP Primary Cluster: Tainted Input,True
+897,SFP Primary Cluster: Entry Points,True
+898,SFP Primary Cluster: Authentication,True
+899,SFP Primary Cluster: Access Control,True
+901,SFP Primary Cluster: Privilege,True
+902,SFP Primary Cluster: Channel,True
+903,SFP Primary Cluster: Cryptography,True
+904,SFP Primary Cluster: Malware,True
+905,SFP Primary Cluster: Predictability,True
+906,SFP Primary Cluster: UI,True
+907,SFP Primary Cluster: Other,True
+929,OWASP Top Ten 2013 Category A1 - Injection,True
+930,OWASP Top Ten 2013 Category A2 - Broken Authentication and Session Management,True
+931,OWASP Top Ten 2013 Category A3 - Cross-Site Scripting (XSS),True
+932,OWASP Top Ten 2013 Category A4 - Insecure Direct Object References,True
+933,OWASP Top Ten 2013 Category A5 - Security Misconfiguration,True
+934,OWASP Top Ten 2013 Category A6 - Sensitive Data Exposure,True
+935,OWASP Top Ten 2013 Category A7 - Missing Function Level Access Control,True
+936,OWASP Top Ten 2013 Category A8 - Cross-Site Request Forgery (CSRF),True
+937,OWASP Top Ten 2013 Category A9 - Using Components with Known Vulnerabilities,True
+938,OWASP Top Ten 2013 Category A10 - Unvalidated Redirects and Forwards,True
+944,SFP Secondary Cluster: Access Management,True
+945,SFP Secondary Cluster: Insecure Resource Access,True
+946,SFP Secondary Cluster: Insecure Resource Permissions,True
+947,SFP Secondary Cluster: Authentication Bypass,True
+948,SFP Secondary Cluster: Digital Certificate,True
+949,SFP Secondary Cluster: Faulty Endpoint Authentication,True
+950,SFP Secondary Cluster: Hardcoded Sensitive Data,True
+951,SFP Secondary Cluster: Insecure Authentication Policy,True
+952,SFP Secondary Cluster: Missing Authentication,True
+953,SFP Secondary Cluster: Missing Endpoint Authentication,True
+954,SFP Secondary Cluster: Multiple Binds to the Same Port,True
+955,SFP Secondary Cluster: Unrestricted Authentication,True
+956,SFP Secondary Cluster: Channel Attack,True
+957,SFP Secondary Cluster: Protocol Error,True
+958,SFP Secondary Cluster: Broken Cryptography,True
+959,SFP Secondary Cluster: Weak Cryptography,True
+960,SFP Secondary Cluster: Ambiguous Exception Type,True
+961,SFP Secondary Cluster: Incorrect Exception Behavior,True
+962,SFP Secondary Cluster: Unchecked Status Condition,True
+963,SFP Secondary Cluster: Exposed Data,True
+964,SFP Secondary Cluster: Exposure Temporary File,True
+965,SFP Secondary Cluster: Insecure Session Management,True
+966,SFP Secondary Cluster: Other Exposures,True
+967,SFP Secondary Cluster: State Disclosure,True
+968,SFP Secondary Cluster: Covert Channel,True
+969,SFP Secondary Cluster: Faulty Memory Release,True
+970,SFP Secondary Cluster: Faulty Buffer Access,True
+971,SFP Secondary Cluster: Faulty Pointer Use,True
+972,SFP Secondary Cluster: Faulty String Expansion,True
+973,SFP Secondary Cluster: Improper NULL Termination,True
+974,SFP Secondary Cluster: Incorrect Buffer Length Computation,True
+975,SFP Secondary Cluster: Architecture,True
+976,SFP Secondary Cluster: Compiler,True
+977,SFP Secondary Cluster: Design,True
+978,SFP Secondary Cluster: Implementation,True
+979,SFP Secondary Cluster: Failed Chroot Jail,True
+980,SFP Secondary Cluster: Link in Resource Name Resolution,True
+981,SFP Secondary Cluster: Path Traversal,True
+982,SFP Secondary Cluster: Failure to Release Resource,True
+983,SFP Secondary Cluster: Faulty Resource Use,True
+984,SFP Secondary Cluster: Life Cycle,True
+985,SFP Secondary Cluster: Unrestricted Consumption,True
+986,SFP Secondary Cluster: Missing Lock,True
+987,SFP Secondary Cluster: Multiple Locks/Unlocks,True
+988,SFP Secondary Cluster: Race Condition Window,True
+989,SFP Secondary Cluster: Unrestricted Lock,True
+990,SFP Secondary Cluster: Tainted Input to Command,True
+991,SFP Secondary Cluster: Tainted Input to Environment,True
+992,SFP Secondary Cluster: Faulty Input Transformation,True
+993,SFP Secondary Cluster: Incorrect Input Handling,True
+994,SFP Secondary Cluster: Tainted Input to Variable,True
+995,SFP Secondary Cluster: Feature,True
+996,SFP Secondary Cluster: Security,True
+997,SFP Secondary Cluster: Information Loss,True
+998,SFP Secondary Cluster: Glitch in Computation,True
